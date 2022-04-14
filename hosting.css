@@ -1,0 +1,1477 @@
+html, body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.orange{
+    color: #FA6232;
+}
+.wh100{
+    width:100%;
+    height: 100%;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height:  min(7.7vw, 115px);;
+    background-color:  #262626;
+    display: flex;
+}
+.toplogo{
+    width: 25%;
+    height: 100%;
+}
+.logoPlace{
+    width: 38.6%;
+    height: 79.5%;
+    display: block;
+}
+.topcontacts{
+    width: 32%;
+    height: 100%;
+}
+.contactPlace{
+    height: min(99px, 89%);
+    width:178px;
+    justify-content: center;
+    position: absolute;
+    
+}
+.telefonLink{
+    width: 100%;
+    height: min(28px, 1.9vw);
+    margin:0 0  min(15px, 1vw) 0;
+    display: flex;
+}
+.supportLink{
+    width: 100%;
+    height: min(44px, 3vw);
+    display: flex;
+}
+.circleForIcon{
+    width: min(28px,1.94vw);
+    height: min(28px,1.94vw);
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 50%;
+    z-index: 1;
+    margin-right: 8px;
+}
+.circleForIcon2{
+    width: min(28px,1.94vw);
+    height: min(28px,1.94vw);
+    position: absolute;
+    border-radius: 50%;
+    z-index: 2;
+}
+.contactsIcons{
+    width: min(17.28px, 1.2vw);
+    height: auto;
+    color: white;
+    z-index: 3;
+}
+.phoneText{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(16px, 1.1vw);
+    line-height: 150%;
+}
+.phoneText2{
+    color: white;
+    font-style: italic;
+    font-weight: 200;
+    font-size: min(14px, 1vw);
+    line-height: 150%;
+    text-align: right;
+}
+
+.topImage{
+    width: auto;
+    height: min(444px, 30.83vw);
+    margin-top: min(30px, 2.08vw);
+    margin-left: min(694px, 48.19vw);
+    position: absolute;
+    z-index: 1;
+}
+.topBoxTitle{
+    width: min(637px, 44.24vw);
+    height: min(144px, 1vw);
+    margin-left: min(130px, 9.03vw);
+    margin-top: min(54px, 3.75vw);
+    font-weight: 500;
+    font-size: min(72px, 5vw);
+    line-height: 100%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-shadow: 3px 1px 0px #3E708F;
+    position: absolute;
+}
+.topBoxInfo1{
+    width: min(515px, 35.76vw);
+    height: min(60px, 4.17vw);
+    margin-left: min(130px, 9.03vw);
+    margin-top: min(232px, 16.11vw);
+    font-weight: 400;
+    font-size: min(20px,1.39vw);
+    line-height: 150%;
+    color: #FFFFFF;
+    position: absolute;
+}
+.topBoxInfo2{
+    width: min(515px, 35.76vw);
+    height: min(60px, 4.17vw);
+    margin-left: min(130px, 9.03vw);
+    margin-top: min(303px, 21.04vw);
+    font-weight: 400;
+    font-size: min(20px,1.39vw);
+    line-height: 150%;
+    color: #FFFFFF;
+    position: absolute;
+}
+.fonBlock{
+    width: min(425px, 29.51vw);
+    height: min(44px, 3.06vw);
+    position: absolute;
+    margin-top: min(396px, 27.5vw);
+    background-color:  #FE8572;
+    z-index: 3;
+}
+.topBlock{
+    width: min(410px, 28.47vw);
+    height: min(46px, 3.19vw);
+    position: absolute;
+    z-index: 4;
+    margin-top: min(385px, 26.74vw);
+    background-color: #1B567C;
+    color: white;
+    font-weight: 400;
+    font-size: min(24px, 1.67vw);
+    padding-left: min(45px, 3.125vw);
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toplogin{
+    width: 43%;
+    height: 100%;
+}
+.loginblock{
+    width: 51%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.blueBtn{
+    color: #FFFFFF;
+    background-color: #67A8D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: min(5px, 0.3vw);
+    height: 100%;
+    width: 100%;
+    font-size: min(20px, 1.33vw);
+    font-style: normal;
+    font-weight: 500;
+}
+.lkCircle{
+    background-color: #67A8D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    height: 100%;
+    width: min(3vw, 44px );
+}
+.lkImg{
+    height: 51.8%;
+    width: 51.8%;
+}
+
+nav{
+    width: 100%;
+    height:  min(4.44vw, 64px);
+    display: flex;
+    background-color: white;
+}
+.navItemPlace{
+    height: 100%;
+}
+.navItem{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #262626;
+    height:  min(20px, 1.39vw);
+    width: 100%;
+}
+.rightLine{
+    border-right: 1px solid #858585;
+}
+.tarifs{
+    width: 100%;
+    height: min(1731px, 120.21vw);
+    background-color: #F8F8F8;
+}
+.tarifsBody{
+    width:81.94%;
+    margin-left: 9.38%;
+    height: 89.14%;
+    margin-top: 5.43%;
+}
+.tarifsTitle{
+    width: 100%;
+    height: min(72px, 5vw);
+    font-weight: 400;
+    font-size: min(48px, 3.33vw);
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+}
+.tarifsInfoBlock{
+    width: 54.49%;
+    height: min(160px, 11.11vw);
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    margin-top: min(57px, 3.96vw);
+}
+.tarifsBtnsArea{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tarifBtn{
+    height: 100%;
+    width: 23.73%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 10px 10px 0px 0px;
+}
+.tarifBtnImg{
+    margin-top: min(20px, 1.39vw);
+    width:100%;
+    height: min(100px, 6.94vw);
+    display: flex;
+    justify-content: center;
+}
+.tarifBtnTitle{
+    width:100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: min(36px, 2.5vw);
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #497896;
+}
+.tarifsInfo{
+    width:100%;
+    height: min(50px, 3.47vw);
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.tarifBtnInfoPlace{
+    width: 100%;
+    height: 67.62%;
+}
+.tarifBtnInfoLabel{
+    width: 100%;
+    height: 13.73%;
+    display: flex;
+}
+.tarifBtnBuyBtn{
+    width: 100%;
+    height: 18.64%;
+}
+.tarifBtnText{
+    width: 78.57%;
+    height: 94.55%;
+    margin-left: 10.71%;
+    padding-top: min(18px, 1.55vw);
+}
+.tarifBtnTextTitle{
+    font-weight: 600;
+    font-size: min(20px, 1.39vw);
+    margin-bottom: min(12px, 0.83vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.tarifBtnTextRegular{
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    margin-bottom: min(14px, 0.97vw);
+    line-height: 150%;
+    color: #858585;
+    text-align: center;
+}
+.tarifBtnInfoLabelLeft{
+    height: 100%;
+    width: 57.14%;
+    background: linear-gradient(90deg, #7CB4D8 0%, rgba(191, 230, 255, 0) 100%);
+}
+.tarifBtnInfoLabelRight{
+    height: 100%;
+    width: 42.86%;
+    color: #3C3B3B;
+}
+.tarifBtnInfoLabelPrice{
+    font-weight: 300;
+    font-size: min(36px, 2.5vw);
+    line-height: 150%;
+    text-decoration-line: line-through;
+    text-align: center;
+}
+.tarifBtnInfoLabelMonth{
+    position:absolute;
+    font-weight: 400;
+    font-size: min(14px, 0.97vw);
+    line-height: 150%;
+    text-decoration-line: line-through;
+    text-align: center;
+    margin-top: max(-15px, -1.04vw);
+}
+.noLineTrough{
+    text-decoration-line: none;
+}
+.moreDetailsLinkPlace{
+    width: 100%;
+    height: min(125px, 8.68vw);
+    display: flex;
+    justify-content: center;
+}
+.moreDetailsLink{
+    font-style: italic;
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FA6232;
+    margin-top: min(34.65px, 2.41vw);
+}
+.dopInfo{
+    width: 100%;
+    height: min(401px, 27.85vw);
+    display: flex;
+}
+.dopInfoPart{ 
+    width: 50%;
+    height: 100%;
+}
+.dopInfoPartImg{
+    width: min(595px, 41.32vw);
+    height: min(401px, 27.85vw);
+}
+.dopInfoPartText{
+    padding-top: min(47px, 3.26vw);
+    padding-left: min(46px, 3.19vw);
+}
+.dopInfoPartTitle{
+    font-size:  min(24px, 1.67vw);
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3C3B3B;
+    margin-bottom: min(47px, 3.26vw);
+}
+.dopInfoPartItem{
+    width: min(529px, 36.74vw);
+    min-height: min(53px, 3.68vw);
+    display: flex;
+    margin-bottom: min(10px, 0.69vw);
+}
+.dopInfoPartItemMark{
+    height: 100%;
+    width: min(43px, 3vw);
+}
+.dopInfoPartItemMarkImg{
+    height: min(32px, 2.22vw);
+    width: min(32px, 2.22vw);
+}
+.dopInfoPartItemText{
+    width: min(486px, 33.75vw);
+    font-weight: 600;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #1B567C;
+}
+.CMSzone{
+    width: 100%;
+    height: min(666px, 46.25vw);
+}
+.fon{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-color:  #67A8D2;
+    z-index: 1;
+}
+.rectangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: min(720px, 50vw); 
+    border-color: transparent #67A8D2 #67A8D2 transparent; 
+    transform: scale(1, 0.4625);
+    opacity: 0.2;
+    position: absolute;
+    z-index: 3;
+    margin-top: max(-387px, -26.88vw);
+}
+.CMSzoneContext{
+    width: min(1180px, 84.94vw);
+    height: min(618px, 42.92vw);
+    margin-top: max(-666px, -46.25vw);;
+    position: absolute;
+    padding-top:min(48px, 3.33vw);
+    padding-left: min(130px, 9.03vw);
+    padding-right: min(130px, 9.03vw);
+ }
+.contextTitle{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: min(48px,3.33vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+    margin-bottom: min(57px, 3.96vw);
+}
+.contextText{
+    width: 61.02%;
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    margin-bottom: min(70px,4.86vw);
+}
+.contextDesc{
+    width: 100%;
+    height: min(270px, 18.75vw);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between;
+}
+.contextCard{
+    width:  min(200px, 13.89vw);
+    height: min(65px,4.51vw);
+    margin-bottom: 10px;
+}
+.top{
+    width: 100%;
+    height:  min( 493px, 34.2vw);
+    display: flex;
+    background: linear-gradient(91.05deg, #5994BA 14.15%, #ADCCE0 99%);
+}
+.middle{
+    width: 100%;
+    height: min(1164px, 80.83vw);
+    background-color: #F8F8F8;
+}
+.middleTitle{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: min(48px, 3.33vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+    margin-top: min(94px, 6.53vw);
+}
+.middleText{
+    width: min(730px, 50.69vw);
+    height: min(143px, 9.93vw);
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    margin-top: min(57px, 3.96vw);
+    margin-left: min(130px, 9.03vw);
+}
+.middleCardDesk{
+    width: min(1180px, 81.94vw);
+    height: min(551px, 38.26vw);
+    margin-left: min(130px, 9.03vw);
+    margin-top: min(49px, 3.4vw);
+    display: flex;
+    justify-content: space-between;
+}
+.middleCard{
+    width: min(280px, 19.44vw);
+    height: 100%;
+    background: rgba(103, 168, 210, 0.1);
+    border: 1px solid rgba(103, 168, 210, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 10px;
+}
+.cardNumber{
+    font-weight: 600;
+    font-size: min(72px, 5vw);
+    line-height: 150%;
+    text-align: center;
+    color: #67A8D2;
+    opacity: 0.5;
+    position: absolute;
+    margin-left: min(13px,0.9vw);
+    margin-top: max(-9px,-0.625vw);
+}
+.middleCardTitle{
+    height: min(161px, 11.18vw);
+    width: 100%;
+}
+.middleCardTitleText{
+    font-weight: 600;
+    font-size: min(20px,1.39vw);
+    line-height: 150%;
+    text-align: center;
+    color: #1B567C;
+    width: min(191px, 13.26vw);
+}
+.middleTextBlock{
+    width: 100%;
+    height: min(264px, 18.33vw);
+    text-align: center;
+    margin-top: min(30px,2.08vw);
+    font-weight: 400;
+    font-size: min(16px,1.11vw);
+    line-height: 120%;
+    text-align: center;
+    color: #3C3B3B;
+}
+.middlePricePlace{
+    margin-top: min(30px, 2.08vw);
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: min(24px, 1.67vw);
+    line-height: 150%;
+    text-align: center;
+    color: #1B567C;
+}
+.middleBtnPlace{
+    width: 100%;
+    margin-top: min(60px,4.16vw);
+    height: min(44px, 3.06vw);
+}
+.middleBtn{
+    width: min(319px, 22.15vw);
+    height: 100%;
+    background-color: #FA6232;
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: min(20px,1.39vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF
+}
+.domainNames{
+    width: 100%;
+    height: min(1423px, 98.82vw);
+    background: linear-gradient(180deg, rgba(124, 180, 216, 0.4) 0%, rgba(191, 230, 255, 0) 100%);
+    background-color: #F8F8F8;
+}
+.worldImg{
+    position: absolute;
+    width: min(240px, 16.67vw);
+    height: min(340px, 23.61vw);
+}
+.domainNamesTitle{
+    margin-top: min(52px,3.61vw);
+    width: 100%;
+    height: min(72px, 5vw);
+    font-weight: 400;
+    font-size: min(48px, 3.33vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+}
+.domainNamesTitleSecond{
+    margin-top: min(223px,15.49vw);
+}
+.domainNamesInfoPlace{
+    margin-top: min(58px,4.03vw);
+    margin-left: min(130px,9.03vw);
+    width: min(1180px, 81.94vw);
+    height: min(555px, 38.54vw);
+    display: flex;
+}
+.hostingInfoPlace{
+    width: 100%;
+    display: flex;
+    height: min(304px, 21.11vw);
+
+}
+.hostingImage{
+    display: block;
+    width: min(441px, 30.625vw);
+    height: min(306px, 21.25vw);
+    margin-left: min(130px,9.03vw);
+}
+.hostingInfoPlaceText{
+    height: 100%;
+    width: min(670px, 46.53vw);
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    padding-left: min(60px, 4.17vw);
+    padding-top: min(33px, 2.29vw);
+}
+.domainNamesInfoPlaceLeft{
+    height: 100%;
+    width: min(600px,41.67vw);
+}
+.domainNamesInfoPlaceRight{
+    width: min(580px, 40.28vw);
+    height: min(535px, 37.15vw);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.domainNamesInfoCard{
+    width: min(280px, 19.44vw);
+    height: min(111px, 7.71vw);
+}
+.bottomCard{
+    display: flex;
+    align-items: flex-end;
+}
+.domainNamesInfoCardBody{
+    width: 100%;
+    height: 81.08%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 5px;
+    display: flex;
+}
+.domainNamesInfoCardCircle{
+    width: min(95px, 6.6vw);
+    height: 100%;
+}
+.lightCircle{
+    width: min(55px, 3.82vw);
+    height: min(55px, 3.82vw);
+    position: absolute;
+    z-index: 1;
+}
+.domainAbbr{
+    font-weight: 600;
+    font-size: min(24px, 1.67vw);
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1B567C;
+    z-index: 2;
+    margin-left: min(19px, 1.32vw);
+}
+.domainNamesInfoCardInfo{
+    height: 100%;
+    width: min(83px, 5.76vw);
+    position: absolute;
+    margin-left: min(189px, 13.125vw);
+}
+.domainNamesInfoCardInfoPrice{
+    width: 100%;
+    margin-top: min(18px,1.25vw);
+    font-weight: 600;
+    font-size: min(24px, 1.67vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3C3B3B;
+}
+.domainNamesInfoCardInfoPerYear{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    text-align: center;
+    margin-top: max(-13px, -0.9vw);
+    color: #3C3B3B;
+}
+.VPSpricesRight{
+    height: 100%;
+    width: min(680px, 47.22vw);
+    background-color: #67A8D2;
+}
+.myTable{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-weight: 600;
+    font-size: min(20px,1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    border-spacing: 0px;
+}
+td{
+    text-align: center;
+}
+thead{
+    height: 16%;
+}
+th{
+    font-weight: 600;
+    font-size: min(20px,1.39vw) ;
+    line-height: 150%;
+    color: #3C3B3B;
+    width: 25%;
+}
+.myBtn{
+    width: min(152px, 10.56vw); 
+    height: min(44px, 3.06vw); 
+    margin-left:min(10px,0.69vw)
+}
+.blue{
+    background-color: #d8e9f3;
+}
+.white{
+    color:white;
+    background-color:  #6496b4;
+    
+}
+.darkBlue{
+    background-color: #206592;
+}
+.rightBorder{
+    border-right: 0.25px solid #6496b4 ;
+}
+.domainNamesInfoPlaceLeftTextBox{
+    height: min(316px, 21.94vw);
+    width: min(560px,38.89vw);
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    margin-top: min(88px, 6.11vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.domainNamesInfoBtnPlace{
+    width: 100%;
+    height: min(44px, 3.06vw);
+    margin-top: min(77px,5.35vw);
+}
+.VPSprices{
+    width: 100%;
+    height: min(545px, 37.85vw);
+    background-color: #F8F8F8;
+}
+.VPSpricesBox{
+    margin-top: min(86px, 5.97vw);
+    margin-left: min(130px, 9.03vw);
+    width: min(1180px, 81.94vw);
+    height: min(335px, 23.26vw);
+    display: flex;
+}
+.VPSpricesLeft{
+    width: min(500px, 34.72vw);
+    height: 100%;
+}
+.VPSpricesLeftTitle{
+    width: 100%;
+    font-weight: 400;
+    font-size: min(24px,1.67vw);
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3C3B3B;
+}
+.VPSpricesLeftInfo{
+    width: 100%;
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    margin-top: min(43px, 2.99vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    margin-bottom: min(23px, 1.6vw);
+}
+
+
+
+.profits{
+    width: 100%;
+    height: min(494px, 34.3vw);
+}
+.proritsBack{
+    background-color:  #67A8D2;
+    opacity: 0.2;
+}
+.profitContent{
+    position: absolute;
+    height: min(494px, 34.3vw);
+    width: min(1440px, 100vw);
+    margin: 0 auto;
+}
+.profitTitle{
+    width: 100%;
+    height: min(195px, 13.5vw);
+    display: flex;
+    justify-content: center;
+}
+.profitTitleText{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(48px, 3.33vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+    opacity: 1;
+    margin-top: min(65px, 4.51vw)
+}
+.profitsDesk{
+    width: 100%;
+    height: min(299px, 20.7vw);
+    display: flex;
+}
+.profitsCard{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profitsCardImgPlace{
+    width: min(55.6px, 3.86vw);
+    height: min(55.6px, 3.86vw);
+    display: flex;
+    justify-content: center;
+}
+.profitsCardImg{
+    height: 100%;
+}
+.profitsCardTitle{
+    height: min(35px, 2.43vw);
+    color: #3C3B3B;
+    font-weight: 600;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    margin-top: min(16px, 1.11vw);
+}
+.profitsCardText{
+    height: min(120px, 8.33vw);
+    color: #858585;
+    font-weight: 400;
+    font-size:  min(16px, 1.11vw);
+    line-height: 150%;
+    margin-top: min(4px, 0.28vw);
+    text-align: center;
+}
+.q-a{
+    width: 100%;
+    height: min(1440px, 100vw);
+    background-color:   #F8F8F8;
+}
+.q_a_info{
+    width: 50%;
+    height: min(90px, 15.63vw);
+    margin-top: min(61px,4.24vw);
+    margin-left: 9.03%;
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.q_a_cards{
+    width: 100%;
+    height: min(700px, 48.61vw);
+    margin-top: min(47px, 3.26vw);
+    display: flex;
+}
+.q_a_cardsLeft{
+    width:50%;
+    height: 100%;
+}
+.q_a_cardsRight{
+    width: 50%;
+    height: 100%;
+}
+.q_a_card{
+    width: min(580px, 40.28vw);
+    min-height: min(80px, 5.55vw);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    display: flex;
+    margin-bottom: min(20px, 1.39vw);
+
+}
+.q_a_cardsTextPlace{
+    height: 100%;
+    min-height: min(80px, 5.55vw);
+    width: 86.21%;
+}
+.q_a_cardsTextPlaceClose{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color:#1B567C;
+}
+.q_a_cardsTextPlaceOpenTitle{
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: min(20px, 1.39vw);
+        line-height: 150%;
+        color:#1B567C;
+        min-height: min(80px, 5.55vw);
+    }
+.q_a_cardsTextPlaceOpen{
+    width:92%;
+    height: min(240px, 16.67vw);
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.q_a_cardsSighnPlace{
+    height: 100%;
+    min-height: min(80px, 5.55vw);
+    width: 13.79%;
+}
+.minusOrange{
+    height: min(3px, 0.21vw);
+    width: min(31px, 2.15vw);
+    margin-top: min(39px, 2.71vw);
+    margin-left: min(25px,1.74vw);
+}
+.plusBlue{
+    width: min(31px, 2.15vw);
+    height: min(31px, 2.15vw);
+    margin-top: min(25px,1.74vw);
+    margin-left: min(39px,2.71vw);
+    position: absolute;
+}
+.q_a_card_left{
+    margin-left: min(130px, 9.03vw);
+}
+.q_a_card_right{
+    margin-left: min(10px,0.69vw);
+}
+.sharnirLight{
+    width:auto;
+    height: min(168px, 11.67vw);
+    opacity: 0.2;
+    position: absolute;
+    margin-top: min(291px, 20.21vw);
+
+}
+.sharnirDark{
+    width:auto;
+    height: min(168px, 11.67vw);
+    opacity: 0.2;
+    position: absolute;
+    margin-top: min(435px, 30.21vw);
+}
+.feedback{
+    width: 100%;
+    height: min(470px, 32.64vw);
+    display: flex;
+}
+.feedbackLeft, .feedbackRight{
+    height: 100%;
+    width: 50%;
+}
+.feedbackArea{
+    width: min(480px,33.33vw);
+    height: min(225px, 15.63vw);
+    margin-top: min(103px,7.15vw);
+    margin-left: min(130px,9.03vw);
+}
+.feedbackAreaTitle{
+    width: 100%;
+    height: min(70px, 4.86vw);
+    font-weight: 400;
+    font-size:  min(24px, 1.67vw);
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3C3B3B;
+}
+.feedbackAreaText{
+    width: 100%;
+    height: min(143px, 9.93vw);
+    margin-top: min(12px,0.83vw);
+    font-weight: 400;
+    font-size:  min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.feedbackCard{
+    height: min(204px, 14.17vw);
+    width: min(559px, 38.82vw);
+    background-color:  #FFFFFF;
+    margin-left: min(10px, 0.69vw);
+    margin-top: min(136px, 9.44vw);
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    border-radius: 10px;
+}
+.feedbackCardText{
+    width: min(469px, 32.57vw);
+    height: min(90px, 6.25vw);
+    margin-top: min(50px,3.47vw);
+    margin-left: min(45px,3.12vw);
+    text-align: center;
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+}
+.feedbackCardAuthor{
+    width: min(192px, 13.33vw);
+    height: min(24px, 1.67vw);
+    margin-top: min(26px,1.81vw);
+    margin-left: min(350px,24.31vw);
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    text-align: center;
+    color: #858585;
+}
+.q_a_title{
+    width: 100%;
+    height: min(72px, 5vw);
+    font-weight: 400;
+    font-size: min(48px, 3.33vw);
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+}
+.kavichki{
+    position: absolute; 
+    margin-top: min(115px, 7.99vw);
+    height: min(41px, 2.85vw);
+    width: min(18.83px, 1.31vw);
+}
+.kav1{
+    margin-left: min(269px, 18.68vw);
+}
+.kav2{
+    margin-left: min(290px, 20.14vw);
+}
+.personFoto{
+    height: min(76px, 5.28vw);
+    width: min(76px, 5.28vw);
+    position: absolute;
+    margin-top: min(302px, 20.97vw);
+    margin-left: min(252px, 17.5vw);
+}
+.sliderpoint{
+    width: min(8px, 0.56vw);
+    height: min(8px, 0.56vw);
+    position: absolute; 
+    margin-top: min(412px, 28.61vw);
+}
+.point1{
+    margin-left: min(270px, 18.75vw);
+}
+.point2{
+    margin-left: min(290px, 20.14vw);
+}
+.point3{
+    margin-left: min(310px, 21.53vw);
+}
+
+.payments{
+    width:100%;
+    height: min(840px, 58.33vw);
+    background: linear-gradient(180deg, rgba(124, 180, 216, 0.4) 0%, rgba(191, 230, 255, 0) 100%);
+}
+.tryBoxPlace{
+    position: absolute;
+    display: flex;
+    margin-top: calc(-1*min(100px, 6.94vw));
+    width: 100%;
+}
+.tryBox{
+
+    width: min(1020px, 70.83vw);
+    height: min(310px, 21.53vw);
+    background-color: #1B567C;
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    border-radius: min(10px, 0.69vw);
+
+    margin-left: min(210px, 14.58vw);
+    align-items: center;
+}
+.tryBoxText{
+    font-weight: 400;
+    font-size: min(24px,1.67vw);
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.tryBoxTextTop{
+    margin-top: min(64px, 4.44vw);
+}
+.tryBoxTextMiddle{
+    width: min(777px, 53.96vw);
+    text-align: center;
+    margin-top: min(18px, 1.25vw);
+}
+.tryBtn{
+    display: block;
+    border-radius: 5px;
+    background-color: #FA6232;
+    width: min(319px, 22.15vw);
+    height: min(44px, 30.56vw);
+    margin-top: min(36px, 2.5vw);
+    font-weight: 500;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    padding-top: min(12px, 0.83vw);
+
+}
+.leftArrow{
+    position:absolute;
+    margin-top: min(10px, 0.67vw);
+    width:min(173px, 12vw);
+    height: min(162px, 11.25vw);
+}
+.rightArrow{
+    position:absolute;
+    margin-top:  min(83px, 5.76vw);
+    margin-left: min(1250px, 86.81vw);
+    width:min(190px, 13.19vw);
+    height: min(181px, 12.57vw);
+}
+.payMethods{
+    width: 100%;
+    height: min(72px, 5vw);
+    font-weight: 400;
+    font-size: min(48px, 3.33vw);
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #3C3B3B;
+    margin-top: min(293px, 20.35vw);
+}
+.payMethodsTextArea{
+    width: 100%;
+    margin-top: min(54px, 3.75vw);
+    height: min(90px,6.25vw);
+}
+.payMethodsText{
+    font-weight: 400;
+    font-size: min(20px, 1.39vw);
+    line-height: 150%;
+    color: #3C3B3B;
+    height: 100%;
+    margin-left: 9.38%;
+    width: 50%;
+}
+.paymentSystems{
+    width:100%;
+    height: min(331px,23vw);
+}
+.paymentSystemsBoard{
+    width:83.33%;
+    height: 61.63%;
+    margin-top: min(32px, 2.22vw);
+    margin-left: min(125px, 8.68vw);
+    display: flex;
+    flex-wrap: wrap;
+}
+.paymentSystemsCard{
+    width: 25%;
+    height: 50%;
+}
+.paymentSystemsItem{
+    width: 100%;
+    height: min(50px, 3.47vw);
+}
+.borderRight{
+    border-right: 1px solid #9dc7e6;
+}
+.paymentSystemsItem{
+    display: block;
+}
+.paymentSystemsLink{
+    margin: 0 auto;
+
+}
+.paymentSystemsImg{
+    width:100%;
+    height: 100%;
+}
+.item1{
+    width:min(170px, 11.81vw);
+    height: min(49px, 3.4vw);
+}
+.item2{
+    width:min(176px, 12.22vw);
+    height: min(38px, 2.64vw);
+}
+.item3{
+    width:min(98px, 6.81vw);
+    height: min(32px, 2.22vw);
+}
+.item4{
+    width:min(83px, 5.76vw);
+    height: min(50px, 3.47vw);
+}
+.item7{
+    width:min(104px, 7.22vw);
+    height: min(36px, 2.5vw);
+}
+.item5{
+    width:min(111px, 7.71vw);
+    height: min(50px, 3.47vw);
+}
+.item6{
+    width:min(142px, 9.86vw);
+    height: min(41px,2.85vw);
+}
+.item8{
+    width:min(145px, 10.06vw);
+    height: min(45px,3.13vw);
+}
+
+footer{
+    width: 100%;
+    height: min(827px, 57.43vw);
+    background-color: #262626;
+}
+.footerBody{
+    width: 81.94%;
+    height: min(750px, 50.08vw);
+    margin-left: 9.03%;
+    display: flex;
+}
+.footerBodyLeft{
+    height: 100%;
+    width: 41.53%;
+}
+.footerBodyMiddle{
+    height:87%;
+    width: 39.44%;
+    padding-top: min(89px, 6.18vw);
+    padding-left: min(54px, 3.75vw);
+}
+.footerBodyRight{
+    height: 100%;
+    width: 19.03%;
+}
+.socialMediaLinks{
+    width: 100%;
+    margin-top: min(89px, 6.18vw);
+    height: min(48px, 3.33vw);
+    display:flex;
+    justify-content: space-between;
+}
+.socialMediaLink{
+    display: block;
+    height: min(48px, 3.33vw);
+    width: min(48px, 3.33vw);
+    border-radius: 50%;
+    background: linear-gradient(90deg, #7CB4D8 0%, rgba(191, 230, 255, 0) 100%);
+}
+.spamBtnPlace{
+    width: 100%;
+    height: min(31px, 2.15vw);
+    margin-top: min(48px, 3.33vw);
+    display: flex;
+    justify-content: flex-end;
+}
+.spamBtn{
+    width: 39.28%;
+    text-align: center;
+    font-weight: 400;
+    font-size: min(14px, 0.97vw);
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.footerLogo{
+    width: 100%;
+    height: min(103px, 7.15vw);
+    margin-top: min(89px, 6.18vw);
+}
+.footerLogoImg{
+    height: min(87px, 6.04vw);
+    width: min(145px, 10.07vw);
+}
+.footerBodyLeftText{
+    height: min(144px, 10vw);
+    width:100%;
+    margin-top: min(18.17px, 1.26vw);
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    color: #858585;
+}
+.companyInfo{
+    width: 100%;
+    height: min(305px, 21.18vw);
+    margin-top: min(68px, 4.72vw);
+    display: flex;
+    justify-content: space-between;
+}
+.companyInfoLeft{
+    height: 100%;
+    width: 53.88%;
+}
+.companyInfoRight{
+    height: 100%;
+    width: 37.96%;
+}
+.companyInfoTitle{
+    width: 100%;
+    height: min(30px, 2.08vw);
+    font-weight: 600;
+    font-size:min(20px, 1.39vw);
+    line-height: 150%;
+    color: #858585;
+    margin-bottom: min(10px, 0.69vw);
+}
+.companyInfoText{
+    width: min(215px, 14.93vw);
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.footerBodyMiddleItem{
+    width: 100%;
+    height: min(71px, 4.93vw);
+    display: flex;
+
+}
+.footerBodyMiddleIcon{
+    height: 100%;
+    width: 6.76%;
+}
+.footerBodyMiddleInfo{
+    height: 100%;
+    width: 90%;
+    padding-left: min(9px, 0.63vw);
+}
+.greyCircle{
+    width: 100%;
+    height: min(30px, 2.08vw);
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+.footerBodyMiddleIconPlace{
+    width: min(30px, 2.08vw);
+    height: min(30px, 2.08vw);
+    position: absolute;
+}
+.footerBodyMiddleInfoTitle{
+    font-weight: 400;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    color: #858585;
+    padding-top: min(3px,0.21vw);
+}
+.footerBodyMiddleInfoText{
+    font-weight: 600;
+    font-size: min(16px, 1.11vw);
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.bottomFooter{
+    width: 81.94%;
+    height: min(77px, 5.35vw);
+    margin-left: 9.03%;
+    border-top: 1px solid  #575757;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomFooterItem{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(14px, 0.97vw);
+    line-height: 150%;
+    color: #858585;
+    opacity: 0.5;
+    margin-top: min(25px, 1.74vw);
+}
+.myBtn2{
+    width: min(232px, 16.11vw);
+    height: min(44px, 3.06vw);
+    position: absolute;
+    margin-top: min(385px,26.74vw);
+    margin-left: min(478px, 33.19vw);
+}
+.topArrow{
+    width: min(151px, 10.49vw);
+    height: min(38px, 2.64vw);
+    position: absolute;
+    margin-top: min(427px,29.65vw);
+    margin-left: min(354px, 24.58vw);
+    z-index: 5;
+}
+
+#webmoney{
+    filter: grayscale(1);
+    transition: filter 1.5s;
+}
+#webmoney:hover{
+    filter: grayscale(0);
+}
+
+
+@font-face {
+	font-family: 'SF Pro Display';  
+	src: url("fonts/SFProDisplay-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+ }
